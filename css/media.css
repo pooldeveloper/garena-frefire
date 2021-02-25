@@ -1,0 +1,109 @@
+@media(max-width:1341px){
+    .character{
+        background-size: 646px 707px;
+        background-position-x: 130%;
+    }  
+}
+@media(max-width:1001px){
+    .character{
+        background-size: 530px 606px;
+        background-position-x: 150%;
+    }  
+} 
+@media(max-width:769px){
+    .header-logo img{
+        width: 85px;
+    }
+    .header-logo i{
+        color: #a7a9ac;
+        margin-left: 15px;
+        margin-top: 16px;
+        font-size: 14px;
+    }
+    .header-btn a{
+        padding: 7px 10px;
+    }
+    main{
+        width: 100%;
+        background: url(../img/home.png) no-repeat;
+        background-size: 1929px 2797px;
+        background-position: -5px;
+    }
+    .character{
+        display: none;
+    } 
+    .home-logo{
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .home-logo img{
+        width: 90%;
+        max-width: 401px;
+    }
+    .home-search{
+        width: 90%;
+        margin: 0px auto;
+        margin-top: 20px;
+        margin-bottom: 30px ;
+    }
+    .home-btn{
+        margin-left: 0px;
+        justify-content: center;
+    }
+    .home-btn a:first-child{
+        margin-right: 5px;
+    }
+    .home-title{
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+    .home-title h3{
+        font-size: 30px;
+    }
+    .card{
+        width: 160px;
+        height: 224px;
+    }
+    .card img{
+        width: 154px;
+        height: 218px;
+    }
+    .banner-title h3{
+        font-size: 24px;
+    }
+    .footer-content{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .copyrigth{
+      width: 92%;
+    }
+    .privacy{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    .social-icons i{
+        margin-right: 0px;
+    }
+    .social-icons img{
+        width: 35px;
+        height: 35px;
+    }
+}
+@media(max-width:376px){
+    .home-title{
+        width: 100%;
+    }
+    .home-btn{
+       flex-direction: column;
+       align-items: center;
+    }
+    .home-btn a:first-child{
+        margin-bottom: 5px;
+    }
+}

@@ -1,0 +1,247 @@
+/* GENERAL STYLES*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    color: #333333;
+    background: #eff0f0;
+}
+a{
+    text-decoration: none;
+}
+/* HEADER */
+.header{
+    width: 90%;
+    height: 71px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+}
+.header-logo{
+    display: flex;
+}
+.header-logo img{
+    width: 123px;
+}
+.header-logo i{
+    color: #a7a9ac;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.header-btn a{
+    background: rgba(255, 164, 26, 1); 
+    padding: 7px 20px;
+    border-radius: 4px;
+    color: #000000;
+    font-size: 14px;
+}
+.header-btn a:hover{
+    text-decoration: underline;
+}
+/* MAIN */
+.character{
+    background: url(../img/character.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: absolute;
+    background-size: 759px 808px;
+    width: 100%;
+    height: 85vh;
+    top: 0px;   
+    right: 0px;
+    z-index: -1;
+    /*Es una propiedad que especifica cómo el contenido de un elemento debe combinarse con su fondo principal directo ocurecido.*/
+    mix-blend-mode: darken;
+}
+/* HOME CONTENT */
+.home-content{
+    margin-top: 25vh;
+}
+.home-logo{
+    margin-left: 4%;
+}
+.home-search{
+    width: 500px;
+    margin-left: 6px;
+    margin: 20px 0px 30px 4px;
+}
+.home-search input[type="search"]{
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    border: solid #ffffff;
+    outline: none;
+    text-align: center;
+    position: relative;
+    color: #999;
+}
+.home-search input[type="search"]:focus {
+    border: 1px solid rgba(255, 164, 26, 1);
+    color: #555;
+}
+.home-search i{
+    position: absolute;
+    z-index: 1;
+    line-height: 48px;
+    margin-left: 15px;
+}
+.home-btn{
+    display: flex;
+    margin-left: 75px;
+}
+.home-btn a{
+    display: flex;
+    height: auto;
+    align-items: center;
+}
+.home-btn a:first-child{
+    margin-right: 25px;
+}
+.home-title{
+    display: flex;
+    align-items: center;
+    margin: 2px 0px 30px 2%;
+}
+.home-title i{
+    margin-right: 14px;
+    margin-top: 18px;
+}
+.home-title img{
+    width: 33px;
+    height: 24px;
+}
+.home-title h3{
+    font-size: 45px;
+}
+/* CARDS */
+.cards{
+    width: 92%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* Distribuir items uniformemente
+    Los items tienen el mismo espacio a su alrededor */
+   justify-content: space-around;
+}
+.card{
+    width: 199px;
+    height: 279px;
+    border:  3px solid transparent;
+}
+.card img{
+    width: 193px;
+    height: 273px;
+}
+.card:hover{
+    border:  3px solid rgba(255, 164, 26, 1);
+}
+
+/* BANNER */
+.banner{
+    width: 100%;
+    height: 633px;
+    background: url(../img/banner.png);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding-top: 130px;
+}
+.banner-content{
+    width: 85%;
+    margin: 0px auto;
+}
+.banner-title{
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+}
+.banner-title i{
+    margin-top: 18px;
+}
+.banner-title img{
+    width: 33px;
+    height: 24px;
+}
+.banner-title h3{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 14px;
+}
+.banner-nav{
+    list-style: none;
+}
+.banner-nav a{
+    padding: 16px 0px;
+    display: block;
+    color: #ffffff;
+    transition: all 300ms;
+}
+.banner-nav a:hover{
+    text-decoration: underline;
+}
+/* FOOTER */
+.footer{
+    margin-top: -10px;
+    width: 100%;
+    padding: 100px 0px;
+    height: auto;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.footer-content{
+    width: 89%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.copyrigth{
+    display: flex;
+    color: #A7A9AC;
+    align-items: center;
+    width: 42%;
+    line-height: 23px;
+}
+.copyrigth i{
+    border-radius: 5px;
+    margin-right: 18px;
+}
+.copyrigth img{
+    width: 53px;
+    height: 52px;
+}
+.privacy{
+    display: flex;
+    align-items: center;
+    min-width: 45%;
+    justify-content: space-between;
+}
+.privacy a{
+    color: #666666;
+    transition: 300ms;
+}
+.privacy a:hover{
+    text-decoration: underline;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+}
+.social-icons i{
+    margin-right: 10px;
+}
+
+
